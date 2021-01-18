@@ -1,0 +1,9 @@
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\bin\Debug\netcoreapp3.1\DomainClasses.deps.json
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\bin\Debug\netcoreapp3.1\DomainClasses.dll
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\bin\Debug\netcoreapp3.1\DomainClasses.pdb
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\obj\Debug\netcoreapp3.1\DomainClasses.csprojAssemblyReference.cache
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\obj\Debug\netcoreapp3.1\DomainClasses.AssemblyInfoInputs.cache
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\obj\Debug\netcoreapp3.1\DomainClasses.AssemblyInfo.cs
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\obj\Debug\netcoreapp3.1\DomainClasses.csproj.CoreCompileInputs.cache
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\obj\Debug\netcoreapp3.1\DomainClasses.dll
+C:\WrkSpace\DockerSample\RabbitMqSample\DomainClasses\obj\Debug\netcoreapp3.1\DomainClasses.pdb
