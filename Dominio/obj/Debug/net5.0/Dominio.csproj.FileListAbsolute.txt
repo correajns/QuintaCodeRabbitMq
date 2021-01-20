@@ -1,0 +1,11 @@
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\bin\Debug\net5.0\Dominio.deps.json
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\bin\Debug\net5.0\Dominio.dll
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\bin\Debug\net5.0\Dominio.pdb
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\Dominio.dll
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+B:\EstudoJonas\QuintaCodeRabbitMq\Dominio\obj\Debug\net5.0\Dominio.pdb

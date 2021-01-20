@@ -4,7 +4,7 @@
   <h3 align="center">RabbitMq Quinta code sample</h3>
 
   <p align="center">
-    Projeto com a finalidade de demonstrar todas a principal usabilidade do docker em multiplas chamadas.    
+    Projeto com a finalidade apresentar o RabbitMq e processamento em fila
     <br />
     pego como base o exemplo no tutorial do RabbitMq C# 
     <a href="https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html">Ir Para</a>
@@ -20,7 +20,7 @@
     <li>
       <a href="#about-the-project">Sobre o projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#construido-com">Construido com</a></li>
       </ul>
     </li>
     <li>
@@ -44,19 +44,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+projeto simples mostrando a utilização do processamento e comunicação de filas entre serviços
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
+### Construido com
 
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [RabbitMq](https://www.rabbitmq.com/download.html)
 * [Visual Code](https://code.visualstudio.com/download)
-* [.Net Core SDK](https://dotnet.microsoft.com/download)
+* [.Net Core SDK 5.x](https://dotnet.microsoft.com/download)
 
 
 
@@ -65,7 +60,8 @@ Here's a blank template to get started:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Após as intalações do Docker execute os seguinte comandos
+
+Após as intalações do Docker **[opcional]** execute os seguinte comandos para realizar download da imagem e também iniciar os serviços
 ```
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
@@ -73,17 +69,17 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-manag
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Instalação do [Docker](https://www.docker.com/get-started) [opcional]
+
+* Instalação do serviço [RabbitMq](https://www.rabbitmq.com/#getstarted), caso não tenha optado pelo uso do docker.
+
+* Inclusão do RabbitMq Client nas dlls dos projeto
 
 ### Installation
 
-1. Clone the repo
+1. Clone o repositorio
    ```sh
-  https://github.com/correajns/QuintaCodeRabbitMq.git
+   git clone https://github.com/correajns/QuintaCodeRabbitMq.git
    ```
 2. Install NPM packages
    ```sh
@@ -95,51 +91,5 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+build and run 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues]().
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Software proprietario do grupo Edenred`LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
