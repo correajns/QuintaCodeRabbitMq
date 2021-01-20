@@ -22,15 +22,15 @@ namespace Receptor
             using (var channel = connection.CreateModel())
             {
                 channel.QueueDeclare(queue: _queue,
-                                     durable: false,
+                                     durable: false, //true para gravar em disco e não perder informações durante restart
                                      exclusive: false,
                                      autoDelete: false,
                                      arguments: null);
 
                 var consumer = new EventingBasicConsumer(channel);
 
-                //utilizado para equilibrar os evios para multiplas filas
-                channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                //utilizado para equilibrar os recebimentos entre diversos receptores identicos
+                //channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
                 consumer.Received += (model, ea) =>
                 {

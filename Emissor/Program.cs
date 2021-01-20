@@ -18,7 +18,7 @@ namespace Emissor
             using (var channel = connection.CreateModel())
             {
                 channel.QueueDeclare(queue: _queue,
-                                     durable: false,
+                                     durable: false, //true para gravar em disco e não perder informações durante restart
                                      exclusive: false,
                                      autoDelete: false,
                                      arguments: null);
