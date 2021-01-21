@@ -30,7 +30,7 @@ namespace Receptor
                 var consumer = new EventingBasicConsumer(channel);
 
                 //utilizado para equilibrar os recebimentos entre diversos receptores identicos
-                //channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
                 consumer.Received += (model, ea) =>
                 {
