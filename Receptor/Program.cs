@@ -63,7 +63,7 @@ namespace Receptor
                                      autoAck: false,
                                      consumer: consumer);
 
-                Console.WriteLine(" Press [enter] to exit.");
+                Console.WriteLine("Aguardando dados a serem recebidos, pressione qualquer tecla para sair.");
                 Console.ReadLine();
             }
         }

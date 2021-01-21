@@ -56,7 +56,7 @@ namespace Emissor
                 }
             }
 
-            Console.WriteLine(" Press [enter] to exit.");
+            Console.WriteLine("Dados enviados, pressione qualquer tecla para sair!");
             Console.ReadLine();
         }
     }
